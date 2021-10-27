@@ -1,0 +1,159 @@
+.loading-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home Page CSS */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.home-top1-container {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--button-color);
+}
+
+.home-top1-container h2 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.home-top2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 54px;
+  border-bottom: 1px solid var(--button-color);
+  margin-bottom: 12px;
+}
+
+.top2-inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  height: 100%;
+}
+
+.home-top2-container input {
+  margin: 8px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  outline: none;
+  color: var(--color);
+  text-align: center;
+}
+
+.home-top2-container button {
+  margin: 12px;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid var(--button-color);
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: var(--color);
+  background-color: var(--button-background);
+  transition: all 0.2s ease-in;
+}
+
+.home-top2-container button:hover {
+  background-color: #3e456e;
+}
+
+.home-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-body-empty {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-body-empty h2 {
+  font-size: 22px;
+}
+
+/* End of Home Page CSS */
+
+/* Contact List CSS */
+.contact-list-container {
+  width: 75%;
+  border-bottom: 1px solid var(--button-background);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease-in;
+  background-color: #1e2030;
+}
+
+.contact-list-container:hover {
+  background-color: var(--button-background);
+}
+
+.contact-list-details {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-list-details p {
+  margin-left: 12px;
+}
+
+.contact-list-details-user img {
+  width: 45px;
+  margin-left: 16px;
+  margin: 8px;
+}
+
+.contact-list-details-user {
+  display: flex;
+}
+
+.contact-list-details-phone {
+  display: flex;
+}
+
+.space-between {
+  width: 25%;
+}
+
+.contact-list-buttons {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-list-buttons svg {
+  cursor: pointer;
+}
